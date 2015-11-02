@@ -14,6 +14,8 @@
 		E1D648B91BE748810014F897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D648B81BE748810014F897 /* Images.xcassets */; };
 		E1D648BC1BE748810014F897 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D648BA1BE748810014F897 /* LaunchScreen.xib */; };
 		E1D648C81BE748810014F897 /* UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D648C71BE748810014F897 /* UIScrollViewTests.m */; };
+		E1D648D21BE749CC0014F897 /* Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D648D11BE749CC0014F897 /* Moon.jpg */; };
+		E1D648D41BE74D9F0014F897 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D648D31BE74D9F0014F897 /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		E1D648C11BE748810014F897 /* UIScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D648C61BE748810014F897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D648C71BE748810014F897 /* UIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewTests.m; sourceTree = "<group>"; };
+		E1D648D11BE749CC0014F897 /* Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moon.jpg; sourceTree = "<group>"; };
+		E1D648D31BE74D9F0014F897 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		E1D648AA1BE748810014F897 /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				E1D648D31BE74D9F0014F897 /* images.jpg */,
+				E1D648D11BE749CC0014F897 /* Moon.jpg */,
 				E1D648AF1BE748810014F897 /* AppDelegate.h */,
 				E1D648B01BE748810014F897 /* AppDelegate.m */,
 				E1D648B21BE748810014F897 /* ViewController.h */,
@@ -199,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D648D21BE749CC0014F897 /* Moon.jpg in Resources */,
+				E1D648D41BE74D9F0014F897 /* images.jpg in Resources */,
 				E1D648B71BE748810014F897 /* Main.storyboard in Resources */,
 				E1D648BC1BE748810014F897 /* LaunchScreen.xib in Resources */,
 				E1D648B91BE748810014F897 /* Images.xcassets in Resources */,
