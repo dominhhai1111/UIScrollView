@@ -37,20 +37,30 @@
     slider = [[UISlider alloc] initWithFrame:CGRectMake(8, 0, self.view.bounds.size.width-16, 40)];
     slider.minimumValue=0.2;
     slider.maximumValue= 4.0;
-    slider.value = slider.minimumValue;
+    slider.value = 1.0;
     [slider addTarget:self
                action:@selector(onSliderChange:)
      forControlEvents:UIControlEventValueChanged];
     
+    //UIBarButtonItem
     UIBarButtonItem* barButton = [[UIBarButtonItem alloc] initWithCustomView:slider];
     toolBar.items = @[barButton];
     toolBar.frame = CGRectMake(0, 0, toolBar.bounds.size.width, toolBar.bounds.size.height);
     [self.view addSubview:toolBar];
     
-    CGRect scrollRect = CGRectMake(0, toolBar.bounds.size.height, self.view.bounds.size.width, self.view.bounds.size.height-toolBar.bounds.size.height);
+    
+    UIImage* Image = [UIImage imageNamed:@"people.jpg"];
+    CGRect scrollRect = CGRectMake(8, toolBar.bounds.size.height, self.view.bounds.size.width-16, 300);
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:scrollRect];
-    photo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"images.jpg"]];
+    self.scrollView.backgroundColor = [UIColor grayColor];
+    //contentSize
+    self.scrollView.contentSize = CGSizeMake(Image.size.width, Image.size.height);
+    self.scrollView.bounces= true;
+    self.scrollView.showsHorizontalScrollIndicator= true;
+    self.scrollView.showsVerticalScrollIndicator = true;
+    
+    photo = [[UIImageView alloc] initWithImage:Image];
     [self.scrollView addSubview:photo];
     self.scrollView.delegate = self;
     self.scrollView.minimumZoomScale = slider.minimumValue;

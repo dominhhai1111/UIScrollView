@@ -16,6 +16,7 @@
 		E1D648C81BE748810014F897 /* UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D648C71BE748810014F897 /* UIScrollViewTests.m */; };
 		E1D648D21BE749CC0014F897 /* Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D648D11BE749CC0014F897 /* Moon.jpg */; };
 		E1D648D41BE74D9F0014F897 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1D648D31BE74D9F0014F897 /* images.jpg */; };
+		E1F4E6811BEA16DB00329371 /* people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1F4E6801BEA16DB00329371 /* people.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E1D648C71BE748810014F897 /* UIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewTests.m; sourceTree = "<group>"; };
 		E1D648D11BE749CC0014F897 /* Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moon.jpg; sourceTree = "<group>"; };
 		E1D648D31BE74D9F0014F897 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../images.jpg; sourceTree = "<group>"; };
+		E1F4E6801BEA16DB00329371 /* people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		E1D648AA1BE748810014F897 /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				E1F4E6801BEA16DB00329371 /* people.jpg */,
 				E1D648D31BE74D9F0014F897 /* images.jpg */,
 				E1D648D11BE749CC0014F897 /* Moon.jpg */,
 				E1D648AF1BE748810014F897 /* AppDelegate.h */,
@@ -207,6 +210,7 @@
 			files = (
 				E1D648D21BE749CC0014F897 /* Moon.jpg in Resources */,
 				E1D648D41BE74D9F0014F897 /* images.jpg in Resources */,
+				E1F4E6811BEA16DB00329371 /* people.jpg in Resources */,
 				E1D648B71BE748810014F897 /* Main.storyboard in Resources */,
 				E1D648BC1BE748810014F897 /* LaunchScreen.xib in Resources */,
 				E1D648B91BE748810014F897 /* Images.xcassets in Resources */,
@@ -424,6 +428,7 @@
 				E1D648CD1BE748810014F897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1D648CE1BE748810014F897 /* Build configuration list for PBXNativeTarget "UIScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				E1D648D01BE748810014F897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
